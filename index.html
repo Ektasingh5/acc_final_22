@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>accio_final</title>
+</head>
+<body >
+
+    <h1 style="color: white; background-color: black; padding: 5px;">Student Portal </h1>
+    <input type="text" id="search-input" placeholder="Search" style="width: 80% ; padding-top: 10px; padding-bottom: 3px;">
+<button id="search-btn" style="background-color: black; color: aliceblue; padding: 10px; padding-left: 15px; padding-right: 15px;">Search</button>
+<div class="flex-container">
+<button id="sort-name-asc" style="color: #eee; background-color: black;  width: 15%;">Sort A->Z</button>
+<button id="sort-name-desc" style="color: #eee; background-color: black;  width: 15%;">Sort Z->A</button>
+<button id="sort-marks" style="color: #eee; background-color: black;  width: 15%;">Sort by marks</button>
+<button id="sort-passing" style="color: #eee; background-color: black;  width: 15%;">Sort by passing</button>
+<button id="sort-class" style="color: #eee; background-color: black;  width: 15%;">Sort by class</button>
+</div>
+
+<table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Passing</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+<script src="script.js"></script>
+</body>
+</html>

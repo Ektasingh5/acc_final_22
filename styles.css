@@ -1,0 +1,28 @@
+*{
+    background-color: #CDCDCD;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+table {
+    border-collapse: collapse;
+
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #eee;
+  }
+  
+  th {
+    background-color: #eee;
+    font-weight: bold;
+    text-align: left;
+  }
+  
